@@ -1,4 +1,6 @@
-This is the boilerplate code for the OMDB movie API full day workshop. 
+#Find-a-movie
+**A app that lets you search for movie data, built during a Le Wagon one javascript workshop.**<br>
+Find-a-movie queries the IMDb movie API to retrieve movies based on your search term
 
 You can find the resources and exercises here - [Javascript API's Resources & Exercises](https://www.notion.so/ausmeddesign/Javascript-full-day-b247e04e91434dfea004f58c39399ecc)
 
