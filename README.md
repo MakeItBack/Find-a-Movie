@@ -1,4 +1,4 @@
-# Find-a-movie
+# Find-a-Movie
 **A simple web app that lets you search for movies, built during a Le Wagon one javascript workshop.**<br>
 Find-a-movie queries the IMDb movie API to retrieve movies based on a search term
 
