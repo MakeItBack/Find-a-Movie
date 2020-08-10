@@ -1,6 +1,6 @@
 # Find-a-Movie
 **A simple web app that lets you search for movies, built during a Le Wagon one javascript workshop.**<br>
-Find-a-movie queries the IMDb movie API to retrieve movies based on a search term
+[Find-a-Movie](https://find-a-movie.netlify.app) queries the IMDb movie API to retrieve movies based on a search term
 
 Workshop resources [here](https://www.notion.so/ausmeddesign/Javascript-full-day-b247e04e91434dfea004f58c39399ecc)
 
