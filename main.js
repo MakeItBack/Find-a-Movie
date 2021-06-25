@@ -62,3 +62,11 @@ const clear = document.querySelector("#clear").addEventListener("click", () => {
    results.innerHTML = "";
    input.value = "";
 });
+
+const inputGroup = document.querySelector(".input-group");
+// Create a media condition that targets viewports at least 500px wide
+const mediaQuery = window.matchMedia("( min-width: 500px )");
+// When the query is true (Note the `matches` property) make the input group bigger by adding large class
+if (mediaQuery.matches) {
+   inputGroup.classList.add("input-group-lg");
+}
