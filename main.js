@@ -1,6 +1,9 @@
 // Select the results div element - this is where we will insert the results returned by the API
 const results = document.querySelector("#results");
 
+// select the input box and save it to a variable
+const input = document.querySelector("#search-input");
+
 // declare our function to insert movies into the results section
 const insertMovies = (data) => {
    // the returned movie data from JSON file is held in an object called Search. Here we drill down and save just the movie data
@@ -41,8 +44,6 @@ const fetchMovies = (query) => {
       });
 };
 
-fetchMovies("gone");
-
 // Select the form element
 const form = document.querySelector("#search-form");
 
@@ -52,10 +53,12 @@ form.addEventListener("submit", (event) => {
    event.preventDefault();
    // clear the previous results
    results.innerHTML = "";
-   // select the input box and save it to a variable
-   const input = document.querySelector("#search-input");
    // Run the fetchMovies function using the value entered in the search box as the argument
    fetchMovies(input.value);
-   // Make the results visible
-   results.classList.remove("d-none");
+});
+
+// Empty results cards and search box when the clear button is clicked
+const clear = document.querySelector("#clear").addEventListener("click", () => {
+   results.innerHTML = "";
+   input.value = "";
 });

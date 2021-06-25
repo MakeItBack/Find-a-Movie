@@ -29,8 +29,14 @@
          <!-- Title -->
          <h1 class="display-3 mt-5">Find-a-Movie</h1>
          <h6 class="text-muted mt-1">
-            Search the
-            <a href="https://www.omdbapi.com/">Open Movies Database</a>
+            Search using the
+            <strong>Open Movies Database</strong>
+            <a
+               style="text-decoration: none"
+               href="https://www.omdbapi.com/"
+               target="_blank"
+               >API</a
+            >
          </h6>
          <!-- Search box - a form -->
          <form class="my-5" id="search-form">
@@ -43,9 +49,9 @@
                />
                <button type="input" class="btn btn-primary">Find it!</button>
                <button
-                  href="index.html"
                   type="button"
                   class="btn btn-outline-secondary"
+                  id="clear"
                >
                   Clear
                </button>
@@ -54,7 +60,7 @@
       </div>
       <!-- Movie cards will appear here -->
       <div class="container">
-         <div id="results" class="card-grid d-none"></div>
+         <div id="results" class="card-grid"></div>
       </div>
 
       <!-- Javascript files - Keep at the bottom of your body tag -->
