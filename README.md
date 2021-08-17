@@ -4,8 +4,6 @@
 
 Workshop resources [here](https://www.notion.so/ausmeddesign/Javascript-full-day-b247e04e91434dfea004f58c39399ecc)
 
-___
-
 ![Screadshot gif of Find-a- movie](https://github.com/MakeItBack/Find-a-Movie/blob/master/findamovie.gif)
 
 ___
